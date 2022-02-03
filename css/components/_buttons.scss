@@ -40,8 +40,16 @@
         margin-bottom: 0.5rem;
 
         &.back-to-top > i {
-        color: rgb(131, 136, 152);
-        };
+        color: white;
+        }           
+        
+        &:hover {
+            border-color: white;    
+                
+            i {
+                color: rgb(51, 60, 86);
+            }
+        }        
     }
 
     &:hover {
