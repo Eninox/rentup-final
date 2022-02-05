@@ -1,8 +1,15 @@
+@use '../abstracts/variables';
+
+
 .section {
     padding: 2rem 0;
 
     &.section-bg-grey {
         background-color: lightgrey;
+    }
+
+    &.section-bg-green {
+        background-color: variables.$color-primary;
     }
 
     .section-header {

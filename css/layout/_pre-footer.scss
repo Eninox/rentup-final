@@ -1,0 +1,17 @@
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
+
+.pre-footer-questions {
+    color: white;
+
+    h2 {
+        font-size: 3rem;
+        margin: 0;
+    }
+}
+
+.pre-footer-contact {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
