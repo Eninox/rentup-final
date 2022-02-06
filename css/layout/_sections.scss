@@ -23,3 +23,11 @@
         }
     }
 }
+
+.section-pre-footer .container {
+    display: flex;
+    // flex-grow: 1; /* Cet élément doit prendre tout l'espace dispo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
