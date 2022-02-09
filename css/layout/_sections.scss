@@ -4,7 +4,9 @@
     &.section-bg-grey {
         background-color: lightgrey;
     }
-
+    &.section-bg-dark-grey {
+        background-color: #1d2636;
+    }
     .section-header {
         display: flex;
         flex-direction: column;
