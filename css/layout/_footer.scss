@@ -10,6 +10,7 @@
 
     .container-footer-left {
         padding: 0 15px;
+        width: 28rem;
         
         .logo {
             max-width: 150px;
@@ -37,11 +38,11 @@
     }
 
     .container-footer-right {
-        
         display: flex;
         
         .footer-menu {
             padding: 0 15px;
+            line-height: 1.5rem;
 
             h3 {
                 color: white;
@@ -50,15 +51,28 @@
             ul {
                 list-style-type: none;
                 padding: 0;
-                color: variables.$color-tertiary;
-
+                
                 li {
                     margin-top: 15px;
+                    color: variables.$color-tertiary;
+
+                    a {
+                        text-decoration: none;
+
+                        &:visited {
+                            color: variables.$color-tertiary;
+                        }
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
                     
                     .btn {
-                        padding: 3px 10px;
+                        padding: 0 10px;
                         margin-right: 0;
                         font-size: 13px;
+                        position: absolute;
                     }
                 }
             }
