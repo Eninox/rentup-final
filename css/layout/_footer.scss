@@ -3,11 +3,14 @@
 
 #main-footer {
 
-    .container{
+    .container-footer {
         display: flex;
+        justify-content: space-between;
     }
 
-    .container-footer-left{
+    .container-footer-left {
+        padding: 0 15px;
+        
         .logo {
             max-width: 150px;
         }
@@ -15,7 +18,7 @@
             color: white;
         }
         p {
-            color: #5e6d88;
+            color: variables.$color-tertiary;
         }
         .email {
             padding: 7.5px;
@@ -32,11 +35,32 @@
             margin: 0;
         }
     }
-    
+
     .container-footer-right {
+        
+        display: flex;
+        
         .footer-menu {
+            padding: 0 15px;
+
+            h3 {
+                color: white;
+            }
+
             ul {
                 list-style-type: none;
+                padding: 0;
+                color: variables.$color-tertiary;
+
+                li {
+                    margin-top: 15px;
+                    
+                    .btn {
+                        padding: 3px 10px;
+                        margin-right: 0;
+                        font-size: 13px;
+                    }
+                }
             }
         }
     }
