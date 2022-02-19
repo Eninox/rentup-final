@@ -31,6 +31,15 @@
         }
     }
 
+    &.btn-quaternary {
+        border-color: variables.$color-quaternary;
+        background-color: variables.$color-quaternary;
+
+        &:hover {
+            color: variables.$color-quaternary;
+        }
+    }
+
     &.back-to-top {
         border-color: rgb(51, 60, 86);
         background-color: rgb(51, 60, 86);

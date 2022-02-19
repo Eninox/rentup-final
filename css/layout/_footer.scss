@@ -29,7 +29,6 @@
             border-style: solid;
             border-color: white;
         }
-        // modifie légèrement la classe btn qui est exécutée préalablement
         .btn {
             border-top-left-radius: 0px;
             border-bottom-left-radius: 0px;
@@ -58,6 +57,7 @@
 
                     a {
                         text-decoration: none;
+                        color: variables.$color-tertiary;
 
                         &:visited {
                             color: variables.$color-tertiary;
@@ -78,4 +78,12 @@
             }
         }
     }
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+    color: variables.$color-tertiary;
+    text-align: center;
+    border-top-color: red 2px solid;
+    border-top: 1px solid #273246;
 }
