@@ -77,6 +77,13 @@
                 ul {
                     display: flex;
                     list-style-type: none;
+                    align-items: center;
+
+                    .number{
+                        padding: 0 4px;
+                        font-size: small;
+                        border-radius: 50%;
+                    }
                 }
             }
         }
