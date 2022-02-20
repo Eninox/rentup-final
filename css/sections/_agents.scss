@@ -10,15 +10,15 @@
     margin: 10px;
     justify-content: start;
 }
+
 .agents-list {
-    display: flex;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 
     .card {
         width: 300px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
         margin: 1rem;
         
         .card-img-container {

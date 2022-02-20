@@ -68,12 +68,12 @@
                         }
                     }
                     
-                    .btn {
-                        padding: 0 10px;
-                        margin-right: 0;
-                        font-size: 13px;
-                        position: absolute;
-                    }
+                .btn {
+                    padding: 0 10px;
+                    margin-right: 0;
+                    font-size: 13px;
+                    position: absolute;
+                }
                 }
             }
         }
@@ -86,4 +86,11 @@
     text-align: center;
     border-top-color: red 2px solid;
     border-top: 1px solid #273246;
+}
+
+@include mixins.desktop {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
 }

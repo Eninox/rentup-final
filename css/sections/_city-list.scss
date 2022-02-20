@@ -1,3 +1,5 @@
+@use "../abstracts/mixins";
+
 .city-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,5 +44,17 @@
             border-radius: 0.5rem;
             opacity: 0.4;
         }
+    }
+}
+
+@include mixins.desktop {
+    .city-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include mixins.smartphone {
+    .city-list {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
